@@ -26,6 +26,9 @@
   margin-left: 18px;
   cursor: pointer;
 }
+section {
+  margin-top: 130px;
+}
 /* header and navbar styles */
 header {
   background-color: #fff8f3;
@@ -85,7 +88,6 @@ main {
 }
 /* about section style */
 .about {
-  margin-top: 130px;
   padding: 130px 150px;
   background-color: #fff8f3;
   border-radius: 5px;
@@ -120,9 +122,6 @@ main {
   font-size: 20px;
 }
 /* what i do section style */
-.what-i-do {
-  margin: 130px 0;
-}
 .what-i-do > p {
   padding: 0 150px;
 }
@@ -151,4 +150,40 @@ main {
 .skill-description {
   font-size: 16px;
   color: #757575;
+}
+/* Resume Section Style */
+.resume-content-container {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 50px;
+}
+.content-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.content-subtitle {
+  color: #474747;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.content-mini-subtitle {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.content-description {
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  margin-bottom: 30px;
+}
+.resume-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
